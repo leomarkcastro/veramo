@@ -84,8 +84,7 @@ dbConnection:
         $require: '@veramo/data-store?t=object#migrations'
       logging: false
       ## Heroku Personal Account (Not required for team account)
-      ssl:
-        rejectUnauthorized: false
+      ssl: false
       entities:
         $require: "@veramo/data-store?t=object#Entities"
 
